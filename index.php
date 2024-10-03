@@ -33,16 +33,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">À propos</a>
+            <a class="nav-link" href="#about">À propos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#news">Actualités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Galerie</a>
+            <a class="nav-link" href="#activities">Activités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Galeries</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -246,12 +246,14 @@
         </section>
     </div>
 
-    <!-- News Section -->
+    <?php include 'news.php'; ?>
+    <?php include 'activities.php'; ?>
+<!-- 
+    News Section
 <section id="news" class="py-5 bg-light">
     <div class="container">
         <h2 class="display-4 text-center text-primary mb-4">Dernières Actualités</h2>
         <div class="row">
-            <!-- News Item 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <img src="assets/self_driving_car.jpg" class="card-img-top" alt="News Image 1">
@@ -262,7 +264,6 @@
                     </div>
                 </div>
             </div>
-            <!-- News Item 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <img src="assets/barometre.png" class="card-img-top" alt="News Image 2">
@@ -273,7 +274,6 @@
                     </div>
                 </div>
             </div>
-            <!-- News Item 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm">
                     <img src="assets/tourdafrique.jpg" class="card-img-top" alt="News Image 3">
@@ -286,11 +286,10 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <!-- Button to redirect to the full news page -->
             <a href="all-news.html" class="btn btn-outline-primary">Voir toutes les actualités</a>
         </div>
     </div>
-</section>
+</section> -->
 
 
 
