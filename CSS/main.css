@@ -1,0 +1,183 @@
+/* Full-screen carousel items with background images*/
+.carousel-item {
+  height: 50vh; /* Set the carousel to full viewport height */
+  position: relative;
+}
+
+.devise {
+  display: flex;
+  flex-direction: column;
+}
+
+.devise .p-3 {
+  flex-grow: 1; /* Ensures the inner content grows to fill the height */
+}
+
+  
+.carousel-caption {
+  position: absolute;
+  z-index: 4;
+  top: 20%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  vertical-align: top;
+  align-self: top;
+  align-content: center;
+  max-width: 80%; /* Limit the width of text */
+}
+
+.card-img-top{
+  height: 10em;
+}
+/* .carousel-caption {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  vertical-align: top;
+  align-self: top;
+  align-content: center;
+  max-width: 80%; 
+} */
+
+.carousel-caption h1 {
+  font-size: 4.5rem; /* Make the H1 text larger */
+  font-weight: bold;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.opej{
+  height: 10vh;
+  width: 20vh;
+}
+
+.carousel-caption p {
+  color: white;
+  font-size: 1.5rem; /* Increase the paragraph text size */
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.carousel-caption .btn {
+  font-size: 1.2rem; /* Slightly increase button text size */
+  padding: 12px 24px;
+}
+
+.bg-light{
+  background-color: transparent !important;
+  }
+
+  /* Custom styles for the header */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar customization */
+.navbar {
+  background-color: #004d40; /* Harmonious dark green */
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Dark overlay on the carousel images */
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* This creates the dark overlay */
+  z-index: 3; /* Make sure the overlay appears above the image but below the text */
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Golden color on hover */
+}
+
+/* Carousel background adjustment */
+.carousel-item img {
+  opacity: 0.8;
+  object-fit: cover;
+  height: 100%; /* Ensure the image covers the entire height of the viewport */
+}
+
+/* Styling the carousel captions
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+/* .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 5px;
+} */
+
+/* Space after header for next section */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Styling for the A propos section */
+#about {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.carousel {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Add this CSS to your stylesheet */
+.ceo .bg-light {
+  background-color: #f8f9fa; /* Light gray background for the section */
+}
+
+.ceo .text-blue {
+  color: #007bff; /* Bootstrap primary color (blue) */
+}
+
+.ceo .shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for image */
+}
+
+.ceo {
+  border-radius: 8px; /* Rounded corners for the section */
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
