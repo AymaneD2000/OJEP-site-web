@@ -1,0 +1,61 @@
+/* About CEO Section */
+#about-ceo {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    position: relative;
+}
+
+#about-ceo .image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.ceo-img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.ceo-img:hover {
+    transform: scale(1.05);
+}
+
+#about-ceo h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff; /* Header text color */
+}
+
+#about-ceo .lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+#about-ceo p {
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+    #about-ceo h2 {
+        font-size: 2rem;
+    }
+
+    #about-ceo p {
+        font-size: 0.95rem;
+    }
+
+    .ceo-img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

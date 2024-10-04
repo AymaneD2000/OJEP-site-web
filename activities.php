@@ -1,5 +1,5 @@
 <section id="activities">
-<div class="container mt-5">
+<div class="container-fluid mt-5">
 <h2 class="display-4 text-center text-primary mb-4">Activités OJEP</h2>
     <div class="row text-center mb-5">
         <!-- First Item -->

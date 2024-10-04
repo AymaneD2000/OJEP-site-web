@@ -1,29 +1,25 @@
 <?php
 // Include database connection
 include 'db_connection.php';
-
-// Fetch the 3 most recent news
-$sql = "SELECT * FROM news ORDER BY created_at DESC LIMIT 3";
-$result = $conn->query($sql);
 ?>
 
 <section id="news" class="py-5 bg-light">
-    <div class="container">
+    <div class="container-fluid">
         <h2 class="display-4 text-center text-primary mb-4">Dernières Actualités</h2>
         <div class="row">
-            <?php if ($result->num_rows > 0): ?>
-                <?php while ($row = $result->fetch_assoc()): ?>
-                    <div class="col-md-4 mb-4">
+            <?php if ($news > 0): ?>
+                <?php foreach ($news as $index => $new): ?>
+                    <div class="col-md-3 mb-4">
                         <div class="card shadow-sm">
-                            <img src="<?php echo $row['image_url']; ?>" class="card-img-top" alt="News Image">
+                            <img src="<?php echo $new['image_url']; ?>" class="card-img-top" alt="News Image">
                             <div class="card-body">
-                                <h5 class="card-title"><?php echo $row['title']; ?></h5>
-                                <p class="card-text"><?php echo $row['summary']; ?></p>
-                                <a href="news_detail.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Lire plus</a>
+                                <h5 class="card-title"><?php echo $new['title']; ?></h5>
+                                <p class="card-text"><?php echo $new['summary']; ?></p>
+                                <a href="news_detail.php?id=<?php echo $new['id']; ?>" class="btn btn-primary">Lire plus</a>
                             </div>
                         </div>
                     </div>
-                <?php endwhile; ?>
+                <?php endforeach; ?>
             <?php else: ?>
                 <p>No news available.</p>
             <?php endif; ?>

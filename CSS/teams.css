@@ -1,0 +1,60 @@
+.team-section {
+    background-color: #fff;
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+}
+
+.team-subtitle {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.team-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.team-position {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.team-desc {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.team-social-icons a {
+    font-size: 1.2rem;
+    color: blue;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.team-social-icons a:hover {
+    color: #2c3e50;
+}

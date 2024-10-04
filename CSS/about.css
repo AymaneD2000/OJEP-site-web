@@ -1,0 +1,25 @@
+
+/* Styling for the A propos section */
+#about {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+#about .lead{
+  font-size: 1.4rem;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: normal;
+}
