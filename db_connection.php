@@ -41,6 +41,6 @@ if ($result1->num_rows > 0) {
     echo "No data found.";
 }
 
-// Close connection
-$conn->close();
+// Do not close the connection here
+// The connection will be closed after running queries in the relevant files
 ?>

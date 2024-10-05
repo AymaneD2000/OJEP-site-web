@@ -15,7 +15,7 @@ include 'db_connection.php';
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $new['title']; ?></h5>
                                 <p class="card-text"><?php echo $new['summary']; ?></p>
-                                <a href="news_detail.php?id=<?php echo $new['id']; ?>" class="btn btn-primary">Lire plus</a>
+                                <a href="news-detail.php?id=<?php echo $new['id']; ?>" class="btn btn-primary">Lire plus</a>
                             </div>
                         </div>
                     </div>

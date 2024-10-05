@@ -1,0 +1,118 @@
+/* General container settings */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa;
+}
+
+/* Adjust page content to prevent being hidden behind navbar */
+body {
+    padding-top: 60px; /* Adjust this based on the navbar height */
+}
+
+/* Section padding */
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Heading */
+h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Images */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Card Text */
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Empty News Message */
+.text-center {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
