@@ -1,53 +1,90 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 1200px;
 }
 
 .navbar {
     transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
+.navbar-brand img {
+    transition: all 0.3s;
+}
+
+.navbar.scrolled .navbar-brand img {
+    height: 30px;
 }
 
 .article-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
-}
-
-.article-author {
-    color: #777;
+    color: #333;
 }
 
 .article-image {
     margin-top: 20px;
-    border-radius: 5px;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .article-body {
     font-size: 1.2rem;
-    line-height: 1.6;
+    line-height: 1.8;
+    color: #555;
+    padding: 20px 0;
 }
 
-.comments-title {
+.comments-section h5 {
+    font-size: 1.8rem;
     font-weight: bold;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
 }
 
-.comment {
+.comment-list .media {
     border-bottom: 1px solid #ddd;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
 
+.comment-list .media .media-body h6 {
+    color: #007bff;
+}
+
 footer {
     background-color: #f8f9fa;
     border-top: 1px solid #e5e5e5;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
     margin: 0;
+    font-size: 1rem;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .article-title {
+        font-size: 1.75rem;
+    }
+
+    .article-body {
+        font-size: 1rem;
+    }
+
+    .comments-section h5 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
 }

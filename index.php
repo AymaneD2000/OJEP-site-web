@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Link to external CSS stylesheet for custom styles -->
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/about.css">
-    <link rel="stylesheet" href="CSS/ceo.css">
-    <link rel="stylesheet" href="CSS/partemaire.css">
-    <link rel="stylesheet" href="CSS/teams.css">
-    <link rel="stylesheet" href="CSS/news.css">
-    <link rel="stylesheet" href="CSS/forms.css">
-    <link rel="stylesheet" href="CSS/activities.css">
+    <link rel="stylesheet" href="CSS/main.css" type="text/css">
+    <link rel="stylesheet" href="CSS/about.css" type="text/css">
+    <link rel="stylesheet" href="CSS/ceo.css" type="text/css">
+    <link rel="stylesheet" href="CSS/partemaire.css" type="text/css">
+    <link rel="stylesheet" href="CSS/teams.css" type="text/css">
+    <link rel="stylesheet" href="CSS/news.css" type="text/css">
+    <link rel="stylesheet" href="CSS/forms.css" type="text/css">
+    <link rel="stylesheet" href="CSS/activities.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- Link to Bootstrap CSS for responsive design and pre-built components -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -29,39 +29,41 @@
         // echo "$news";
         // echo "$pubs";
     ?>
-    <!-- Navbar section -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <!-- Logo section -->
-      <a class="navbar-brand" href="#">
-        <img class="opej" src="assets/tk.png" alt="OPEJ Logo"> <!-- Adjust the height as needed -->
-      </a>
-      <!-- Toggler button for mobile view -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Menu links -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">À propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#news">Actualités</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#activities">Activités</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Galeries</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
+<!-- Navbar section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <!-- Logo section -->
+    <a class="navbar-brand" href="#index.php">
+      <img class="opej" src="assets/tk.png" alt="OPEJ Logo" style="height: 40px;"> <!-- Adjust the height if necessary -->
+    </a>
+    <!-- Toggler button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Menu links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">À propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#news">Actualités</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#activities">Activités</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#partenaire">Partenaires</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
+
 
   <div class="carousel w-100">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

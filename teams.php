@@ -22,10 +22,10 @@
                                 <p class="team-position">Président</p>
                                 <p class="team-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
                                 <div class="team-social-icons">
-                                    <a href="#"><i class="bi bi-facebook"></i></a>
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                                    <a href="#"><img src="icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/linkedin.svg" alt="linkedin" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/instagram.svg" alt="instagram" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/whatsapp.svg" alt="whatsapp" width="24" height="24"></a>
                                 </div>
                             </div>
                         </div>
@@ -46,10 +46,10 @@
                                 <p class="team-position">Coordinateur Emploi et Entrepreneuriat.</p>
                                 <p class="team-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
                                 <div class="team-social-icons">
-                                    <a href="#"><i class="bi bi-facebook"></i></a>
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                                <a href="#"><img src="icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/linkedin.svg" alt="linkedin" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/instagram.svg" alt="instagram" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/whatsapp.svg" alt="whatsapp" width="24" height="24"></a>
                                 </div>
                             </div>
                         </div>
@@ -70,10 +70,10 @@
                                 <p class="team-position">2ème Vice Présidente</p>
                                 <p class="team-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
                                 <div class="team-social-icons">
-                                    <a href="#"><i class="bi bi-facebook"></i></a>
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                                <a href="#"><img src="icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/linkedin.svg" alt="linkedin" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/instagram.svg" alt="instagram" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/whatsapp.svg" alt="whatsapp" width="24" height="24"></a>
                                 </div>
                             </div>
                         </div>
@@ -94,10 +94,10 @@
                                 <p class="team-position">Vice Président.</p>
                                 <p class="team-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.</p>
                                 <div class="team-social-icons">
-                                    <a href="#"><i class="bi bi-facebook"></i></a>
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                                    <a href="#"><img src="icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/linkedin.svg" alt="linkedin" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/instagram.svg" alt="instagram" width="24" height="24"></a>
+                                    <a href="#"><img src="icons/x.svg" alt="whatsapp" width="24" height="24"></a>
                                 </div>
                             </div>
                         </div>

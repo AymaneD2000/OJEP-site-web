@@ -52,11 +52,11 @@
                         <hr class="w-50 mx-auto">
                         <h4 class="text-muted">Notre Force</h4>
                         <ul class="list-unstyled mt-3">
-                            <li>Engagement</li>
-                            <li>Dynamisme</li>
-                            <li>Solidarité</li>
-                            <li>Intégrité</li>
-                            <li>Excellence</li>
+                            <p>Engagement</p>
+                            <p>Dynamisme</p>
+                            <p>Solidarité</p>
+                            <p>Intégrité</p>
+                            <p>Excellence</p>
                         </ul>
                     </div>
                 </div>

@@ -26,11 +26,27 @@
                 <p><strong>Email :</strong> contact@ojepmali.org</p>
                 <p><strong>Adresse :</strong> Rue des Entrepreneurs, Bamako, Mali</p>
                 <h3 class="text-blue">Suivez-nous</h3>
-                <ul class="list-unstyled d-flex">
-                    <li class="mr-3"><a href="#" class="text-decoration-none"><i class="fab fa-facebook fa-2x text-primary"></i></a></li>
-                    <li class="mr-3"><a href="#" class="text-decoration-none"><i class="fab fa-twitter fa-2x text-info"></i></a></li>
-                    <li class="mr-3"><a href="#" class="text-decoration-none"><i class="fab fa-linkedin fa-2x text-primary"></i></a></li>
-                    <li class="mr-3"><a href="#" class="text-decoration-none"><i class="fab fa-instagram fa-2x text-danger"></i></a></li>
+                <ul class="list-unstyled d-flex justify-content-center social-icons">
+                    <li class="mx-2">
+                        <a href="#" class="social-icon">
+                            <img src="icons/facebook.svg" alt="Facebook" width="32" height="32">
+                        </a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#" class="social-icon">
+                            <img src="icons/linkedin.svg" alt="LinkedIn" width="32" height="32">
+                        </a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#" class="social-icon">
+                            <img src="icons/instagram.svg" alt="Instagram" width="32" height="32">
+                        </a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#" class="social-icon">
+                            <img src="icons/x.svg" alt="X" width="32" height="32">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

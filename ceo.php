@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col text-center">
                     <blockquote class="blockquote text-muted">
-                        <p class="mb-0">"L'avenir appartient à ceux qui croient à la beauté de leurs rêves."</p>
+                        <p class="mb-2">"L'avenir appartient à ceux qui croient à la beauté de leurs rêves."</p>
                         <footer class="blockquote-footer text-primary">Cheick Oumar Soumano</footer>
                     </blockquote>
                 </div>

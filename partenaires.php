@@ -1,5 +1,5 @@
 <!-- ====================== Start Partner Section ====================== -->
-<section class="speedyui speedyui-partner bg-light py-5">
+<section id="partenaire" class="speedyui speedyui-partner bg-light py-5">
     <div class="container">   
         <h3 class="text-center mb-0">
             <span class="text-black">Nos </span>

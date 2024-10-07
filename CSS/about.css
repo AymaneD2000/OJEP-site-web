@@ -1,4 +1,3 @@
-
 /* Styling for the A propos section */
 #about {
   background-color: #f4f4f9;
@@ -6,7 +5,7 @@
 }
 
 #about h2 {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* Large screen size */
   margin-bottom: 20px;
 }
 
@@ -17,9 +16,36 @@
   font-weight: bold;
 }
 
-#about .lead{
-  font-size: 1.4rem;
+#about .lead {
+  font-size: 1.4rem; /* Large screen size */
   margin: 0 auto;
   line-height: 1.6;
   font-weight: normal;
+}
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 1.8rem; /* Reduce heading size on mobile */
+  }
+
+  #about p {
+    font-size: 1rem; /* Reduce paragraph font size on mobile */
+  }
+
+  #about .lead {
+    font-size: 1.1rem; /* Reduce lead text size for mobile */
+  }
+
+  .card-body h3 {
+    font-size: 1.4rem; /* Adjust card heading size */
+  }
+
+  .card-body h4 {
+    font-size: 1.2rem; /* Adjust secondary heading size */
+  }
+
+  .card-body p, .card-body ul {
+    font-size: 0.9rem; /* Smaller size for card body text */
+  }
 }

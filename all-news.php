@@ -79,11 +79,11 @@ $result = $conn->query($sql);
                     <?php while ($row = $result->fetch_assoc()): ?>
                         <div class="col-md-3 mb-4">
                             <div class="card shadow-sm">
-                                <img src="<?php echo $row['image_url']; ?>" class="card-img-top" alt="News Image">
+                                <img src="data:image/jpeg;base64,<?= base64_encode($row['image']) ?>" class="card-img-top" alt="News Image">
                                 <div class="card-body">
                                     <h5 class="card-title"><?php echo $row['title']; ?></h5>
                                     <p class="card-text"><?php echo $row['summary']; ?></p>
-                                    <a href="news_detail.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Lire plus</a>
+                                    <a href="news-detail.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Lire plus</a>
                                 </div>
                             </div>
                         </div>

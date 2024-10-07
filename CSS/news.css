@@ -1,5 +1,55 @@
-#news h2{
+#news h2 {
     font-weight: bold;
     font-size: 2rem;
     color: blue;
+}
+
+#news .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#news .img-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/* 
+#news .img-container img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+
+#news .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#news .card-title, #news .card-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#news .card-title {
+    font-size: 1.1rem;
+}
+
+#news .card-text {
+    font-size: 0.9rem;
+}
+
+#news .btn {
+    align-self: flex-end;
+}
+
+/* Responsive adjustments */
+@media (max-width: 850px) {
+    #news .img-container {
+        height: 150px;
+    }
 }
